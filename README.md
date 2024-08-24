@@ -17,9 +17,9 @@ I ultimately chose a binary search tree due to its robustness and efficiency. As
 
 During the development process, I encountered several roadblocks:
 
--Debugging Errors: I frequently encountered errors while developing the program. To overcome these, I regularly consulted resources such as Stack Overflow, YouTube, GeeksforGeeks, and W3Schools to troubleshoot and debug the issues.
+Debugging Errors: I frequently encountered errors while developing the program. To overcome these, I regularly consulted resources such as Stack Overflow, YouTube, GeeksforGeeks, and W3Schools to troubleshoot and debug the issues.
 
--Tracking Data Flow: Initially, I struggled to follow the flow of where courses were being stored. To resolve this, I slowed down and mapped out how each data structure worked within the program and interacted with one another. This helped me realize that I needed to store the course structure in a node before inserting it into the binary search tree, rather than directly storing pointers to the course structure.
+Tracking Data Flow: Initially, I struggled to follow the flow of where courses were being stored. To resolve this, I slowed down and mapped out how each data structure worked within the program and interacted with one another. This helped me realize that I needed to store the course structure in a node before inserting it into the binary search tree, rather than directly storing pointers to the course structure.
 
 ## Expansion of Software Design Approach
 
@@ -34,5 +34,29 @@ The experience has also evolved the way I write programs that are maintainable, 
 Maintainability and Readability: I have learned how class objects interact to form the foundation of data structures that are not only highly efficient but also easily readable. Since these data structures are standard practices in the industry, anyone reviewing my code can easily understand the data flow and logic of the processes.
 
 Adaptability: My software has become more adaptable as these data structures can be applied to various common use cases. This knowledge has provided me with a strong foundation for designing and implementing highly optimized, clean code.
+
+## Code Example within ProjectTwo.cpp
+
+The following code is the portion of the project responsible for sorting the courses into alphanumeric order and displaying those results:
+
+```
+void BinarySearchTree::inOrder(Node* node) {
+
+    if (node == nullptr) {  // Base Case
+        return;
+    }
+
+    inOrder(node->left);  // Recurse down all the way left
+    displaycourse(node->course);
+
+    inOrder(node->right);  // Then Recurse all the way right
+}
+
+void BinarySearchTree::displaycourse(Course course) {
+    cout << course.courseId << ": " << course.title  << endl;
+    return;
+}
+
+```
 
      
