@@ -1,5 +1,4 @@
-# Project 2
-## Data Structures and Algorithms: Analysis and Design
+# Data Structures and Algorithms: Analysis and Design
 ### Author: Zane Milo Deso
 ### Date: 8/21/2024
 
@@ -18,9 +17,9 @@ I ultimately chose a binary search tree due to its robustness and efficiency. As
 
 During the development process, I encountered several roadblocks:
 
-    Debugging Errors: I frequently encountered errors while developing the program. To overcome these, I regularly consulted resources such as Stack Overflow, YouTube, GeeksforGeeks, and W3Schools to troubleshoot and debug the issues.
+-Debugging Errors: I frequently encountered errors while developing the program. To overcome these, I regularly consulted resources such as Stack Overflow, YouTube, GeeksforGeeks, and W3Schools to troubleshoot and debug the issues.
 
-    Tracking Data Flow: Initially, I struggled to follow the flow of where courses were being stored. To resolve this, I slowed down and mapped out how each data structure worked within the program and interacted with one another. This helped me realize that I needed to store the course structure in a node before inserting it into the binary search tree, rather than directly storing pointers to the course structure.
+-Tracking Data Flow: Initially, I struggled to follow the flow of where courses were being stored. To resolve this, I slowed down and mapped out how each data structure worked within the program and interacted with one another. This helped me realize that I needed to store the course structure in a node before inserting it into the binary search tree, rather than directly storing pointers to the course structure.
 
 ## Expansion of Software Design Approach
 
@@ -32,8 +31,8 @@ This newfound insight has boosted my confidence in my software design skills.
 
 The experience has also evolved the way I write programs that are maintainable, readable, and adaptable:
 
-    Maintainability and Readability: I have learned how class objects interact to form the foundation of data structures that are not only highly efficient but also easily readable. Since these data structures are standard practices in the industry, anyone reviewing my code can easily understand the data flow and logic of the processes.
+Maintainability and Readability: I have learned how class objects interact to form the foundation of data structures that are not only highly efficient but also easily readable. Since these data structures are standard practices in the industry, anyone reviewing my code can easily understand the data flow and logic of the processes.
 
-    Adaptability: My software has become more adaptable as these data structures can be applied to various common use cases. This knowledge has provided me with a strong foundation for designing and implementing highly optimized, clean code.
+Adaptability: My software has become more adaptable as these data structures can be applied to various common use cases. This knowledge has provided me with a strong foundation for designing and implementing highly optimized, clean code.
 
      
